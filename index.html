@@ -91,7 +91,7 @@
             
             <div class="portfolio-notice">
                 <i class="fas fa-lightbulb"></i>
-                <h3>كل نموذج أدناه يمكنني تنفيذه لك حسب متطلباتك الخاصة!</h3>
+                <h3>💡 كل نموذج أدناه يمكنني تنفيذه لك حسب متطلباتك الخاصة!</h3>
                 <p>اختر النموذج الذي يعجبك وسأقوم بتصميم نسخة مخصصة لك تناسب مشروعك بالضبط</p>
             </div>
 
@@ -99,16 +99,27 @@
                 <!-- مشروع 1 -->
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="images/project1.jpg" alt="متجر إلكتروني متكامل" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="متجر إلكتروني متكامل" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="preview-btn" onclick="orderService('متجر إلكتروني', 'medium')">
+                                <i class="fas fa-shopping-cart"></i>
+                                اطلب هذه الخدمة
+                            </button>
+                        </div>
                     </div>
                     <div class="portfolio-content">
                         <h3>متجر إلكتروني متكامل</h3>
-                        <p>تصميم وتطوير منصة تسوق كاملة مع عربة تسوق، نظام دفع، وإدارة منتجات</p>
+                        <p>تصميم وتطوير متجر إلكتروني متكامل مع سلة تسوق، نظام دفع آمن، إدارة منتجات، وتقارير مبيعات</p>
                         <div class="project-links">
-                            <a href="#contact" class="project-link">
+                            <a href="#contact" class="project-link" onclick="setService('medium')">
                                 <i class="fas fa-shopping-cart"></i>
                                 اطلب متجرك الآن
                             </a>
+                            <button class="preview-link" onclick="showServiceDetails('متجر إلكتروني')">
+                                <i class="fas fa-info-circle"></i>
+                                تفاصيل الخدمة
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -116,16 +127,27 @@
                 <!-- مشروع 2 -->
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="images/project2.jpg" alt="موقع شركة احترافي" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="موقع شركة احترافي" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="preview-btn" onclick="orderService('موقع شركة', 'medium')">
+                                <i class="fas fa-shopping-cart"></i>
+                                اطلب هذه الخدمة
+                            </button>
+                        </div>
                     </div>
                     <div class="portfolio-content">
                         <h3>موقع شركة احترافي</h3>
-                        <p>إنشاء هوية رقمية متكاملة للشركات مع عرض الخدمات والفريق والعملاء</p>
+                        <p>إنشاء موقع مؤسسي متكامل يعرض خدمات الشركة، فريق العمل، المشاريع السابقة، ونماذج الاتصال</p>
                         <div class="project-links">
-                            <a href="#contact" class="project-link">
+                            <a href="#contact" class="project-link" onclick="setService('medium')">
                                 <i class="fas fa-building"></i>
                                 اطلب موقع شركتك
                             </a>
+                            <button class="preview-link" onclick="showServiceDetails('موقع شركة')">
+                                <i class="fas fa-info-circle"></i>
+                                تفاصيل الخدمة
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -133,16 +155,27 @@
                 <!-- مشروع 3 -->
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="images/project3.jpg" alt="صفحة هبوط عالية التحويل" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="صفحة هبوط عالية التحويل" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="preview-btn" onclick="orderService('صفحة هبوط', 'basic')">
+                                <i class="fas fa-shopping-cart"></i>
+                                اطلب هذه الخدمة
+                            </button>
+                        </div>
                     </div>
                     <div class="portfolio-content">
                         <h3>صفحة هبوط عالية التحويل</h3>
-                        <p>تصميم صفحات هبوط محسنة لتحويل الزوار إلى عملاء، مع تركيز على تجربة المستخدم</p>
+                        <p>تصميم صفحات هبوط محسنة لتحويل الزوار إلى عملاء، مع تركيز على تجربة المستخدم وتحسين التحويلات</p>
                         <div class="project-links">
-                            <a href="#contact" class="project-link">
+                            <a href="#contact" class="project-link" onclick="setService('basic')">
                                 <i class="fas fa-chart-line"></i>
                                 اطلب صفحة هبوط
                             </a>
+                            <button class="preview-link" onclick="showServiceDetails('صفحة هبوط')">
+                                <i class="fas fa-info-circle"></i>
+                                تفاصيل الخدمة
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -150,16 +183,27 @@
                 <!-- مشروع 4 -->
                 <div class="portfolio-item">
                     <div class="portfolio-image">
-                        <img src="images/project4.jpg" alt="بورتفوليو شخصي إبداعي" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="بورتفوليو شخصي إبداعي" loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="preview-btn" onclick="orderService('موقع شخصي', 'advanced')">
+                                <i class="fas fa-shopping-cart"></i>
+                                اطلب هذه الخدمة
+                            </button>
+                        </div>
                     </div>
                     <div class="portfolio-content">
                         <h3>بورتفوليو شخصي متكامل</h3>
-                        <p>تصميم مواقع شخصية تعرض المهارات، المشاريع، والخبرات بشكل إبداعي ومؤثر</p>
+                        <p>تصميم موقع شخصي يعرض مهاراتك، مشاريعك، وخبراتك بشكل إبداعي مع إدارة محتوى سهلة</p>
                         <div class="project-links">
-                            <a href="#contact" class="project-link">
+                            <a href="#contact" class="project-link" onclick="setService('advanced')">
                                 <i class="fas fa-user-tie"></i>
                                 اطلب موقعك الشخصي
                             </a>
+                            <button class="preview-link" onclick="showServiceDetails('موقع شخصي')">
+                                <i class="fas fa-info-circle"></i>
+                                تفاصيل الخدمة
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -178,11 +222,11 @@
                     <ul class="pricing-features">
                         <li><i class="fas fa-check"></i> صفحة ويب واحدة متكاملة</li>
                         <li><i class="fas fa-check"></i> تصميم متجاوب مع جميع الأجهزة</li>
-                        <li><i class="fas fa-check"></i> نموذج اتصال أساسي</li>
+                        <li><i class="fas fa-check"></i> نموذج اتصال آمن</li>
                         <li><i class="fas fa-check"></i> تسليم خلال 24 ساعة</li>
-                        <li><i class="fas fa-check"></i> دعم لمدة 7 أيام</li>
+                        <li><i class="fas fa-check"></i> دعم فني لمدة 7 أيام</li>
                     </ul>
-                    <a href="#contact" class="pricing-button">
+                    <a href="#contact" class="pricing-button" onclick="setService('basic')">
                         <i class="fas fa-shopping-cart"></i>
                         اختر الباقة
                     </a>
@@ -192,13 +236,13 @@
                     <h3>الباقة المتوسطة</h3>
                     <div class="price">15</div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> موقع متكامل (3 صفحات)</li>
+                        <li><i class="fas fa-check"></i> موقع متكامل (5 صفحات)</li>
                         <li><i class="fas fa-check"></i> تأثيرات CSS متقدمة</li>
-                        <li><i class="fas fa-check"></i> تحسين سرعة وأداء الموقع</li>
-                        <li><i class="fas fa-check"></i> دعم لمدة 14 يوم</li>
-                        <li><i class="fas fa-check"></i> تسليم خلال 48 ساعة</li>
+                        <li><i class="fas fa-check"></i> نظام حماية متكامل</li>
+                        <li><i class="fas fa-check"></i> تحسين سرعة متقدم</li>
+                        <li><i class="fas fa-check"></i> دعم فني لمدة 14 يوم</li>
                     </ul>
-                    <a href="#contact" class="pricing-button">
+                    <a href="#contact" class="pricing-button" onclick="setService('medium')">
                         <i class="fas fa-crown"></i>
                         اختر الباقة
                     </a>
@@ -207,16 +251,56 @@
                     <h3>الباقة المتقدمة</h3>
                     <div class="price">25</div>
                     <ul class="pricing-features">
-                        <li><i class="fas fa-check"></i> موقع متكامل (5 صفحات)</li>
-                        <li><i class="fas fa-check"></i> تحسين SEO أساسي</li>
-                        <li><i class="fas fa-check"></i> تكامل وسائل التواصل الاجتماعي</li>
-                        <li><i class="fas fa-check"></i> دعم لمدة 30 يوم</li>
-                        <li><i class="fas fa-check"></i> تسليم خلال 72 ساعة</li>
+                        <li><i class="fas fa-check"></i> موقع ديناميكي كامل</li>
+                        <li><i class="fas fa-check"></i> نظام إدارة محتوى</li>
+                        <li><i class="fas fa-check"></i> حماية متقدمة من الثغرات</li>
+                        <li><i class="fas fa-check"></i> تحسين SEO متكامل</li>
+                        <li><i class="fas fa-check"></i> دعم فني لمدة 30 يوم</li>
                     </ul>
-                    <a href="#contact" class="pricing-button">
+                    <a href="#contact" class="pricing-button" onclick="setService('advanced')">
                         <i class="fas fa-gem"></i>
                         اختر الباقة
                     </a>
+                </div>
+            </div>
+
+            <div class="pricing-cta">
+                <h3>🚀 مستعد لبدء مشروعك؟</h3>
+                <p>اختر الباقة المناسبة لاحتياجاتك أو تواصل معنا لمناقشة مشروع مخصص</p>
+                <a href="#contact" class="cta-button">
+                    <i class="fas fa-comments"></i>
+                    تواصل معي الآن
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Section -->
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee-content">
+                <h2>✅ ضمان الرضا التام 100%</h2>
+                <p>
+                    <strong>لن أستلم المشروع حتى تكون راضياً عنه تماماً!</strong><br>
+                    هدفي الأساسي هو رضاك الكامل وليس مجرد إنهاء العمل. يمكنك طلب التعديلات حتى تحصل على ما تريد بالضبط.
+                </p>
+                
+                <div class="guarantee-features">
+                    <div class="guarantee-feature">
+                        <i class="fas fa-redo"></i>
+                        <h4>تعديلات مجانية</h4>
+                        <p>3 مراجعات مجانية خلال العمل</p>
+                    </div>
+                    <div class="guarantee-feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>دعم مستمر</h4>
+                        <p>دعم فني بعد التسليم</p>
+                    </div>
+                    <div class="guarantee-feature">
+                        <i class="fas fa-clock"></i>
+                        <h4>تسليم في الوقت</h4>
+                        <p>التزام تام بمواعيد التسليم</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,7 +313,7 @@
             <form class="contact-form" id="serviceForm">
                 <div class="form-group">
                     <label for="name">الاسم الكامل *</label>
-                    <input type="text" id="name" name="name" required placeholder="أدخل اسمك الكريم">
+                    <input type="text" id="name" name="name" required minlength="3" placeholder="أدخل اسمك الكريم">
                 </div>
                 <div class="form-group">
                     <label for="email">البريد الإلكتروني *</label>
@@ -239,15 +323,16 @@
                     <label for="service">نوع الخدمة المطلوبة *</label>
                     <select id="service" name="service" required>
                         <option value="">اختر نوع الخدمة</option>
-                        <option value="basic">الباقة الأساسية - 5$</option>
-                        <option value="medium">الباقة المتوسطة - 15$</option>
-                        <option value="advanced">الباقة المتقدمة - 25$</option>
-                        <option value="custom">خدمة مخصصة</option>
+                        <option value="basic">الباقة الأساسية - 5$ (صفحة واحدة)</option>
+                        <option value="medium">الباقة المتوسطة - 15$ (موقع متكامل)</option>
+                        <option value="advanced">الباقة المتقدمة - 25$ (موقع ديناميكي)</option>
+                        <option value="custom">خدمة مخصصة (حدد في الرسالة)</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="message">تفاصيل المشروع *</label>
-                    <textarea id="message" name="message" required placeholder="اشرح مشروعك بالتفصيل..."></textarea>
+                    <textarea id="message" name="message" required minlength="10" 
+                              placeholder="اشرح مشروعك بالتفصيل، الألوان المفضلة، المواقع التي تعجبك..."></textarea>
                 </div>
                 <button type="submit" class="submit-btn" id="submitBtn">
                     <i class="fas fa-paper-plane"></i>
@@ -268,21 +353,21 @@
                 <div class="footer-links">
                     <h4>روابط سريعة</h4>
                     <ul>
-                        <li><a href="#features">خدماتنا</a></li>
-                        <li><a href="#portfolio">أعمالنا</a></li>
-                        <li><a href="#pricing">الباقات</a></li>
-                        <li><a href="#contact">اتصل بنا</a></li>
+                        <li><a href="#features"><i class="fas fa-arrow-left"></i> خدماتنا</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-arrow-left"></i> أعمالنا</a></li>
+                        <li><a href="#pricing"><i class="fas fa-arrow-left"></i> الباقات</a></li>
+                        <li><a href="#contact"><i class="fas fa-arrow-left"></i> اتصل بنا</a></li>
                     </ul>
                 </div>
                 <div class="footer-contact">
                     <h4>معلومات الاتصال</h4>
                     <p><i class="fas fa-envelope"></i> info@alshaibani.com</p>
                     <p><i class="fas fa-phone"></i> +967 778 942 829</p>
-                    <p><i class="fas fa-map-marker-alt"></i>الجمهورية اليمنية</p>
+                    <p><i class="fas fa-map-marker-alt"></i> الجمهورية اليمنية </p>
                 </div>
             </div>
             <div class="copyright">
-                © 2025 عبدالقدوس الشيباني. جميع الحقوق محفوظة.
+                © 2025 عبدالقدوس الشيباني. جميع الحقوق محفوظة. | تم التطوير بأحدث تقنيات الويب
             </div>
         </div>
     </footer>
